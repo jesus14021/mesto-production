@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index--Ws4eIPw.js"></script>
+    <script type="module" crossorigin src="./assets/index-DShTjKl7.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-D2z4Cjqv.css">
   </head>
   <body class="page">
@@ -165,13 +165,17 @@
       </div>
 
       <!-- Попап: подтверждение удаления карточки -->
-      <div class="popup popup_type_remove-card">
+      <div class="popup popup_type_confirm">
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Вы уверены?</h3>
-          <form class="popup__form" name="remove-card" novalidate>
-            <button type="submit" class="button popup__button">Да</button>
-          </form>
+          <p class="popup__text">Удалить эту карточку?</p>
+          <button
+            type="button"
+            class="button popup__button popup__button_type_confirm"
+          >
+            Да
+          </button>
         </div>
       </div>
 
